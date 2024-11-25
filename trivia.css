@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: #FFC43D; */
+    /* background-color: #1d7874; */
+    /* background-color: #F4C095; */
+    background-color: #83C5BE;
+    
+    
+}
+
+.registerPage{
+    border: 2px solid black;
+    max-width: 650px;
+    margin: auto auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EDF6F9;
+    /* background-color: #E29578 */
+}
+
+#form{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    /* border: 2px solid black; */
+}
+
+#form label{
+    font-size: 15px;
+}
+
+#form input, #form select{
+    width: 90%;
+    height: 26px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+#error{
+    padding-left: 40px;
+}
+
+#form button{
+    width: 130px;
+    padding: 6px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+#questionPage{
+    flex-direction: column;
+    max-width: 650px;
+    width: 100%;
+    border: 2px solid black;
+    gap: 15px;
+    /* margin-left: px; */
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    background-color: #EDF6F9;
+}
+
+#questionPage ol{
+    max-width: 650px;
+    width: 100%;
+}
+#questionPage li{
+    border: 2px solid black;
+    width: 65%;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 0 auto;
+    margin-bottom: 8px;
+}
+
+#questionPage #gameBtn{
+    display: flex;
+    margin: 35px auto 20px auto;    
+    gap: 25px;
+}
+
+#questionPage button{
+    padding: 10px;
+    /* margin-right: 25px; */
+}
+
+#questionPage #nextBtn{
+    /* width: 200px; */
+    border: 2px solid black;
+    /* color: red; */
+}
+
+
+
+#questionPage #goHome{
+    margin-top: 20px;
+}
+
+#questionPage #final{
+    margin: 0 auto;
+    margin-top: 35px;
+    font-weight: bold;
+}
+
+#ScoreDiv{
+    border: 2px solid black;
+    padding: 5px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 700;
+}
+
+#questionPage .score, #questionPage .score1{
+    padding: 10px;
+}
+
+#questionPage .score{
+    left: 0;
+}
+#questionPage .score1{
+    right: 0;
+}
+

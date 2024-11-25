@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./trivia.css">
+</head>
+
+<body>
+    <div class="registerPage">
+        <h1>Welcome To Trivia Quiz Game</h1>
+        <form id="form">
+            <div id="inputFields">
+                <label for="firstPlayer">Enter Player 1 Name:</label>
+                <input type="text" id="firstPlayer" required>
+
+                <label for="secondPlayer">Enter Player 2 Name:</label>
+                <input type="text" id="secondPlayer" required>
+            </div>
+
+            <label for="QuizCat">Choose Quiz Catogery:</label>
+            <select id="QuizCat" required>
+                <option value="choose" disabled selected> select one Catogery</option>
+                <option value="music">Music</option>
+                <option value="sport_and_leisure">Sports and Leisure</option>
+                <option value="film_and_tv">Film and TV</option>
+                <option value="arts_and_literature">Arts and Literature</option>
+                <option value="history">History</option>
+                <option value="society_and_culture">Society and Culture</option>
+                <option value="science">Science</option>
+                <option value="geography">Geography</option>
+                <option value="food_and_drink">Food and Drink</option>
+                <option value="general_knowledge">General Knowledge</option>
+            </select>
+            <div id="error"></div>
+            <button type="submit">Start Game</button>
+        </form>
+    </div>
+
+    <div id="questionPage" style="display: none;"></div>
+
+    <script src="./trivia.js"></script>
+</body>
+
+</html>
