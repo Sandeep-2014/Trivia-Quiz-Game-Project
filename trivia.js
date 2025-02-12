@@ -34,6 +34,7 @@ form.addEventListener('submit', (e) => {
     player1Name = firstPlayer.value
     player2Name = secondPlayer.value
     let category = cat.value
+    console.log(category)
     categoryText = document.querySelector(`[value=${category}]`).innerHTML
     // console.log(categoryText);
     console.log(category);
